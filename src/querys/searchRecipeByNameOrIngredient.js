@@ -8,12 +8,20 @@ const SEARCH_RECIPE_LIST = gql`
           name
           servingWeight
           author
+          ingredients {
+            name
+          }
+          ingredientLines
         }
         otherResults {
           id
           name
           servingWeight
           author
+          ingredients {
+            name
+          }
+          ingredientLines
         }
     }
   }

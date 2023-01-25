@@ -17,10 +17,19 @@
   cursor: pointer;
   margin: 15px;
 }
-.search-result-item span {
-  color: blue;
-}
-.detail-info-item {
-  // display: flex;
-}
 
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result-table {
+  border-collapse: collapse;
+  td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+}
+.w-60 {
+  width: 60%;
+}
